@@ -51,5 +51,4 @@ developers locally and by taskcluster continuously.
 We're excited to help everyone improve FxOS quality and maintainability!
 Our team is  _very_ small right now, but we want to provide mentorship
 and guidance to FxOS developers (especially those motivated to
-contribute to build and test issues) who approach us respectfully. You
-know, more honey, less vinegar :).
+contribute to build and test issues) who approach us respectfully.
