@@ -11,6 +11,19 @@ developers of the FxOS system frontend and core FxOS apps to
 2. build gecko profiles for different scenarios (dev, test, prod),
 3. and test their code with unit and UI tests.
 
+You can expect our group to ensure that Gu and Gij can be run by
+developers locally and by taskcluster continuously.
+
+### Plan for 2015 (Q3 + Q4)
+
++ ~~[confidant](https://github.com/gaye/confidant)~~
++ confidant builds gaia
++ [exhibition](https://github.com/lightsofapollo/exhibition)
++ Get test configuration into the gaia tree
++ Code coverage dashboard across test suites
++ Gij on devices
++ Stabilize Gij
+
 ### Things We Do (Present)
 
 + Maintain and improve test frameworks and utilities used by Firefox OS
@@ -29,12 +42,14 @@ developers of the FxOS system frontend and core FxOS apps to
 
 ### Things We Don't/Won't Do
 
++ Write or maintain tests for individual applications,
 + Write library-level test code (including mocks for platform apis),
 + maintain individual build configurations,
 + and sheriff the tests on ci (responsibility delegated to whomever broke
   the build).
 
-We're excited to help everyone improve FxOS quality and maintainability! With
-that in mind, remember that you catch more flies with honey than you do
-with vinegar. We're human and harassing us or disparaging the tools we
-work so hard to make available to you won't get you very far.
+We're excited to help everyone improve FxOS quality and maintainability!
+Our team is  _very_ small right now, but we want to provide mentorship
+and guidance to FxOS developers (especially those motivated to
+contribute to build and test issues) who approach us respectfully. You
+know, more honey, less vinegar :).
