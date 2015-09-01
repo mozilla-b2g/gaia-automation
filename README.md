@@ -43,7 +43,7 @@ developers locally and by taskcluster continuously.
 ### Things We Don't/Won't Do
 
 + Write or maintain tests for individual applications,
-+ Write library-level test code (including mocks for platform apis),
++ write library-level test code (including mocks for platform apis),
 + maintain individual build configurations,
 + and sheriff the tests on ci (responsibility delegated to whomever broke
   the build).
